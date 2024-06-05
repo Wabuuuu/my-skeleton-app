@@ -33,6 +33,7 @@
   "type": "module",
   "dependencies": {
     "@floating-ui/dom": "^1.6.3",
+    "@sveltejs/adapter-static": "^3.0.1",
     "highlight.js": "11.9.0"
   }
 }
