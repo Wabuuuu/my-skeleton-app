@@ -1,9 +1,9 @@
 <script>
-    // Any necessary JavaScript can be added here if needed
+    
 </script>
 
 <style>
-    /* Styles for the homepage */
+   
     .homepage {
         text-align: center;
         
@@ -23,7 +23,6 @@
     .hero {
     
         height: 400px;
-       
         display: flex;
         align-items: center;
         justify-content: center;
