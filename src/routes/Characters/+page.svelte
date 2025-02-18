@@ -4,8 +4,7 @@
   let show = false;
 
   import {fade,} from "svelte/transition"
-  document.getElementById('character-name').textContent = card.name;
-  document.getElementById('character-img').src = card.img;
+
   let characters = [{name:"Medusa",img:"https://tiermaker.com/images/chart/chart/unmatched-bol2-997464/medusa-card-backjpg.png",Range:"https://unmatched.cards/img/ranged.716adb4d.svg",Sett:"Battle of Legends, Volume One", Health:"Start health: 16",Sidekick:"Sidekick: Harpies x3",Sidekick_Quantity: 3,SidekickRange:"https://unmatched.cards/img/melee.d95dac7a.svg", SidekickHealth:"Start Health: 1", Movement: 3,AbilityName:"",Ability:"At the start of your turn, you may deal 1 damage to an opposing fighter in Medusa's zone"},
   {name:"Sinbad",img:"https://tiermaker.com/images/chart/chart/unmatched-bol2-997464/sinbad-card-backjpg.png",Range:"https://unmatched.cards/img/melee.d95dac7a.svg",Sett:"Battle of Legends, Volume One", Health:"Start health: 15",Sidekick:"Sidekick: The Porter",Sidekick_Quantity: 1,SidekickRange:"https://unmatched.cards/img/melee.d95dac7a.svg", SidekickHealth:"Start Health: 6", Movement: 2,AbilityName:" 7 VOYAGES",Ability:"When you maneuver, you may move your fighters +1 space for each VOYAGE card in your discard pile"},
   {name:"Alice",img:"https://tiermaker.com/images/chart/chart/unmatched-bol2-997464/alice-card-backjpg.png",Range:"https://unmatched.cards/img/melee.d95dac7a.svg",Sett:"Battle of Legends, Volume One", Health:"Start health: 13",Sidekick:"Sidekick: The Jabberwock",Sidekick_Quantity: 1,SidekickRange:"https://unmatched.cards/img/melee.d95dac7a.svg", SidekickHealth:"Start Health: 8", Movement: 2,AbilityName:" CURIOSER AND CURIOSER",Ability:"When you place Alice, choose whether she starts the game BIG or SMALL. When Alice is BIG, add 2 to the value of her attack cards. When Alice is SMALL, add 1 to the value of her defense cards"},
